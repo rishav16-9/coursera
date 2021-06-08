@@ -3,8 +3,8 @@
 }
 
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1{
@@ -14,10 +14,10 @@ h1{
     color:red;
 }
 
-/* .row{
+.row{
     margin-top: 5%;
     margin-bottom: 5%;   
-} */
+}
 
 .box{
     width: 100%;
@@ -27,12 +27,13 @@ h1{
     overflow: none;
     text-align: center;
     border: 3px solid black;
+    border-top: none;
     width: 100px;
-    height: 40px;
-    padding: 5px;
+    height: 30px;
     float: right;
-    margin-right: 36px;
+    margin-right: 19px;
     margin-top: 5px;
+    padding-top: 5px;
     font-weight: bold;
     position: relative;
 }
@@ -41,12 +42,24 @@ h1{
     border: 5px solid black;
     width: 90%;
     height: 100%;
-    margin: 25px;
+    margin:50px 25px 25px 25px ;
     color: black;
     font-size: 25px;
     padding: 10px;
     padding-top: 55px;
-    border-color: rgba(0, 0, 0, 0.3);
+    background-color: gray;
+}
+
+.name1{
+  background-color: pink;
+}
+
+.name2{
+  background-color: red;
+}
+
+.name3{
+  background-color:yellow;
 }
 
 @media(min-width: 992px){
@@ -57,14 +70,14 @@ h1{
 }
 
 @media(min-width: 768px) and (max-width:991px){
-    .col-md-6,.col-md-12{
+    .col-md-6, .col-md-12{
         float:left;
     }
     .col-md-6{
         width: 50%;
     }
     .col-md-12{
-        /* margin-left: -10px; */
+        margin-left: -10px;
         width: 106%;
     }
     .name3{
